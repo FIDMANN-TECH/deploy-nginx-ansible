@@ -1,0 +1,52 @@
+# ===============================
+# Ansible artifacts
+# ===============================
+*.retry
+*.log
+
+# ===============================
+# SSH keys & sensitive files
+# ===============================
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+.ssh/
+
+# ===============================
+# Environment & OS files
+# ===============================
+.env
+.env.*
+.DS_Store
+Thumbs.db
+
+# ===============================
+# Editor & IDE files
+# ===============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===============================
+# Python cache
+# ===============================
+__pycache__/
+*.pyc
+*.pyo
+
+# ===============================
+# Screenshots (if required locally only)
+# ===============================
+screenshots/*.png
+screenshots/*.jpg
+screenshots/*.jpeg
+
+# ===============================
+# Temporary files
+# ===============================
+tmp/
+temp/
